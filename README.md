@@ -1,17 +1,16 @@
-# scheduler-card <!-- omit in TOC -->
+# timer-card <!-- omit in TOC -->
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)  
 
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Updating](#updating)
 - [Usage](#usage)
-  - [Creating a schedule](#creating-a-schedule)
+  - [Creating a timer](#creating-a-timer)
     - [Choosing an entity and action](#choosing-an-entity-and-action)
     - [Choosing the days](#choosing-the-days)
     - [Choosing the time](#choosing-the-time)
-  - [Creating a time scheme](#creating-a-time-scheme)
-    - [Timeslots](#timeslots)
-    - [Time scheme editor](#time-scheme-editor)
+  - [Creating a skeleton](#creating-a-skeleton)
+    - [ToDo](#todo)
   - [Options panel](#options-panel)
     - [Condition editor](#condition-editor)
     - [Period](#period)
@@ -41,10 +40,10 @@
 - [Say thank you](#say-thank-you)
 
 ## Introduction
-This is a Lovelace card for Home Assistant that can be used to create a time schedule for your smart devices.
+This is a Lovelace card for Home Assistant that can be used to create an easily configurable timer action for your smart devices.
 You can create new rules, modify existing rules and temporarily disable rules.
 
-The card works on top of the [scheduler custom component](https://github.com/nielsfaber/scheduler-component). You *will* need it this as well.
+The card works on top of the [scheduler custom component](https://github.com/nielsfaber/scheduler-component). You *will* need to install this as well.
 
 See it in action:
 
