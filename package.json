@@ -1,26 +1,26 @@
 {
-  "name": "scheduler-card",
+  "name": "timer-card",
   "version": "1.0.0",
-  "description": "Scheduler card for Lovelace",
-  "main": "dist/scheduler-card.js",
+  "description": "Timer card for Lovelace",
+  "main": "dist/timer-card.js",
   "scripts": {
     "build": "npm run lint && npm run rollup && npm run babel",
     "rollup": "rollup -c",
-    "babel": "babel dist/scheduler-card.js --out-file dist/scheduler-card.js",
+    "babel": "babel dist/timer-card.js --out-file dist/timer-card.js",
     "lint": "eslint src/**/*.ts --fix",
     "format": "prettier --write '**/*.ts'",
     "start": "rollup -c --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nielsfaber/scheduler-card.git"
+    "url": "git+https://github.com/chaos02/timer-card.git"
   },
-  "author": "nielsfaber",
+  "author": "chaos02",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nielsfaber/scheduler-card/issues"
+    "url": "https://github.com/chaos02/timer-card/issues"
   },
-  "homepage": "https://github.com/nielsfaber/scheduler-card#readme",
+  "homepage": "https://github.com/chaos02/timer-card#readme",
   "dependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",

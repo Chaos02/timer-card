@@ -7,3 +7,5 @@ README.html
 stats.html
 dist/
 !dist/scheduler-card.js
+
+nppBackup/

@@ -1,5 +1,5 @@
 {
-  "name": "Scheduler Card",
+  "name": "Timer Card",
   "render_readme": true,
-  "filename": "scheduler-card.js"
+  "filename": "timer-card.js"
 }
